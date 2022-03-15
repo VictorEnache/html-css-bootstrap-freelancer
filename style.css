@@ -1,16 +1,29 @@
-.container-sm{
-    height: 2000px;
-}
-
-.nav_bar div{
+#site_header{
     height: 50px;
 }
 
-.img{
-    height: 150px;
-    
+#site_header .logo{
+    background-color: green;
 }
 
-.link{
-    height:50px;
+#site_header .menu{
+    background-color: green;
+}
+
+.sm_start{
+    background-color: rgb(68, 75, 75);
+}
+
+.sm_img div{
+    height: 250px;
+    background-color: aquamarine;
+    border: 1px solid black;
+}
+
+.sm_links{
+    background-color: blueviolet;
+}
+
+.sm_about{
+    background-color: brown;
 }
