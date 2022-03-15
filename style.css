@@ -27,3 +27,21 @@
 .sm_about{
     background-color: brown;
 }
+
+.sm_form{
+    width: 70%;
+    margin: auto;
+}
+
+.sm_form>div{
+    border: 1px solid red;
+}
+
+.sm_mesage{
+    height: 100px;
+}
+
+.sm_foot{
+    background-color: antiquewhite;
+    border-bottom: 1px solid black;
+}
