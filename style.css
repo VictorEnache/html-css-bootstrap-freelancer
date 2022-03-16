@@ -12,7 +12,6 @@ div.fg_0{
 
 .bg_hero_primary{
     background-color: #1abc9c;
-    min-height: 100px;
     color: white;
 }
 
@@ -28,4 +27,47 @@ div.fg_0{
 
 .bg_secondary{
     background-color: #3a546d;
+}
+
+.star{
+    width: 100%;
+}
+
+.line_white{
+    border-top: 3px solid white;
+    width: 20%;
+    border-radius: 3px;
+    margin: 0 1rem 0 1rem;
+}
+
+.line_black{
+    border-top: 3px solid black;
+    width: 20%;
+    border-radius: 3px;
+    margin: 0 1rem 0 1rem;
+}
+
+.navbar-toggler{
+    border: 1px solid white !important;
+}
+
+.form-group input,
+.form-floating textarea{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+}
+
+#site_footer span{
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    border: 1px solid white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left:0.5rem;
+    
 }
