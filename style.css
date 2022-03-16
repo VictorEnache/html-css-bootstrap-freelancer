@@ -1,47 +1,27 @@
-#site_header{
-    height: 50px;
+div.fg_0{
+    flex-grow: 0;
 }
 
-#site_header .logo{
-    background-color: green;
+#site_header a{
+    color: white ;
 }
 
-#site_header .menu{
-    background-color: green;
+.bg_navbar{
+    background-color: #2c3e50;
 }
 
-.sm_start{
-    background-color: rgb(68, 75, 75);
+.bg_hero_primary{
+    background-color: #1abc9c;
+    min-height: 100px;
+    color: white;
 }
 
-.sm_img div{
-    height: 250px;
-    background-color: aquamarine;
-    border: 1px solid black;
+.hero_img img{
+    width: 200px;
 }
 
-.sm_links{
-    background-color: blueviolet;
-}
-
-.sm_about{
-    background-color: brown;
-}
-
-.sm_form{
-    width: 70%;
-    margin: auto;
-}
-
-.sm_form>div{
-    border: 1px solid red;
-}
-
-.sm_mesage{
-    height: 100px;
-}
-
-.sm_foot{
-    background-color: antiquewhite;
-    border-bottom: 1px solid black;
+.portfolio_img img{
+    object-fit: cover;
+    width: 100%;
+    border-radius: 1rem;
 }
